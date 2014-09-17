@@ -1,0 +1,57 @@
+{
+	"mainCat":{"clothing":[
+							{
+							"id":"clothes",
+							"name":"CLOTHES",
+								"subid":"womenclothes",
+								"subname":"CLOTHES-Women",
+								"stores":
+								[{		
+									"storeId":"Bolily",
+									"storeCat":"WM",
+									"storeName":"Bolily",
+									"offerDesc":"70% off on all woollens",
+									"storeLocation":"106 Elizabeth St, Melbourne VIC 3000, Australia",
+									"zip":"3000",
+									"storeCordinates":{
+										"coX":"-37.814009",
+										"coY":"144.964460"
+										}
+								},{
+									"storeId":"melbourneCentral",
+									"storeCat":"UNI",
+									"storeName":"Melbourne Central",
+									"storeLocation":"CNR LATROBE & SWANSTON ST MELBOURNE VIC 3000",
+									"zip":"3000",
+									"storeCordinates":{
+										"coX":"-37.814009",
+										"coY":"144.964460"
+										}
+									},
+									{"storeId":"Sussan",
+									"storeCat":"WM",
+									"storeName":"Sussan Central",
+									"offerDesc":"10% off on latest summer dresses",
+									"storeLocation":"Sussan 112 Glenferrie Rd Malvern VIC 3144",
+									"zip":"Malvern",
+									"storeCordinates":{
+										"coX":"-37.861669",
+										"coY":"145.028527"
+									}
+								}
+								]}
+				],
+				"Furnishings":[
+				{},{},{}
+				],
+				"Footwear":[
+				],
+				"Cosmetics":[
+				],
+				"Kitchenware":[
+				]
+			}
+
+
+
+}

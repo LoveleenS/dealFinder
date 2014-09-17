@@ -1,0 +1,29 @@
+
+<ion-view title="Fill in form to get Deals">
+	<ion-content ng-controller="homeCtrl">
+	<div class="list">
+		<label class="item item-input item-stacked-label">
+			<div class="row padding-left"><span class="input-label">Your Name</span></div>
+			<input type="text" placeholder="Please enter your name" ng-model="userData.user[0].name"/>
+		</label>
+		<label class="item item-input item-stacked-label">
+			<div class="row padding-left"><span class="input-label">Deals in/near selected Location</span></div>
+			<select type="text" ng-model="userData.user[1].selLocation" placeholder="Please choose a location" ng-options="locat.zip as locat.loc for locat in userData.locations"><option value=""><h4>- Please choose a location -</h4></option></select>
+		</label>
+		<label class="item item-input item-stacked-label"><div class="padding-right">
+			<button class="button button-block button-outline button-dark" ng-click="gotoNext();submit(userData)">
+	      Submit
+	    </button>
+			</div>
+		</label>
+		<div class="item item-image">
+    <img class="img-responsive img-rounded" src="img/plenty.jpg">
+  </div>
+	</div>
+</ion-content>
+</ion-view>
+
+
+
+	
+

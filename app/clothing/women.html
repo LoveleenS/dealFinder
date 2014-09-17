@@ -1,0 +1,32 @@
+<ion-view ng-controller="clothingCtrl", title="List of Stores">
+	<ion-content class="has-header padding">
+		<h1>Stores offering women clothing and accessories</h1>
+		Data is:		{data.mainCat.clothing[0].stores[0]}}
+		{{user.mylocation}
+		<!--div class="item my-item" 
+			collection-repeat="item in data.mainCat.clothing[0].stores[0]"
+			collection-item-width="">
+		</div-->
+		weather data is {{data}}
+		selLocationZip :: {{selLocationZip}}
+		zip is {{selectedZip}}
+
+		<div class="item item-button-right">
+		<ul ng-repeat="store in data.mainCat.clothing[0].stores| filter:{zip:selectedZip }:true">
+			
+			<div class="panel panel-primary well">
+			<li><label>Store Name:</label> {{store.storeName}}<br>
+				<label>Offer Description:</label> {{store.offerDesc}}<br>
+				<h4><label>Location :</label><p> {{store.storeLocation}}</p></h4>	
+				<div class="buttons">
+					<a class="button button-light" ng-href="#/app/location-map/34">
+						<i class="icon ion-ios7-location"></i>
+					</a>
+				</div>
+			</li> 
+			</div>
+			</ul>
+		</div>
+
+	</ion-content>
+</ion-view>

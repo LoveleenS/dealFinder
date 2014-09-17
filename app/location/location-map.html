@@ -1,0 +1,11 @@
+<ion-view nav-clear ng-controller="locationMapCtrl as lc" class="middle" title="Store Location on Map">
+	<ion-content class="has-header" title="Location Map">
+		<google-map draggable="true" center="lc.map.center" zoom="lc.map.zoom">
+			<marker coords="lc.marker" idkey="222" click="vm.locationClicked(lc.marker)">
+				<marker-label content="lc.marker.title" anchor="10 -8" class="marker-labels">
+				</marker-label>
+			</marker>
+		</google-map>
+	</ion-content>	
+
+<ion-view>

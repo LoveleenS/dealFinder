@@ -1,0 +1,22 @@
+<ion-view title="Choose category">
+        <ion-content ng-controller="homeCtrl">
+			<ion-scroll direction="y" style="height: 500px">
+		        <div class="padding padding-top">
+		          <p>Hello, {{userData.user[0].name}}
+				<p><em> you are looking for deals in this location:</em> {{userData.user[1].selLocation}}</p>
+				<div class="lead" > Happy Shopping!!</div>
+				</div>
+				<div style="height: 500px;">
+					<ion-list>
+					
+					<div class="clothes"><ion-item class="icon icon-right" ui-sref="app.clothing"><div class="bar">Discover new dresses for your wardrobe <i class="icon ion-chevron-right "></i></div></ion-item></div>
+					<div class="shoes"><ion-item class="icon icon-right" href="#/tab/facts"><div class="bar">Fancy some Shoe shopping <i class="icon ion-chevron-right "></i></div></ion-item></div>
+					<div class="kitchenware"><ion-item class="icon icon-right" href="#/tab/facts"><div class="bar">Kitchen and China<i class="icon ion-chevron-right "></i></div></ion-item></div>
+
+					<div class="gift"><ion-item class="icon icon-right" href="#/tab/facts"><div class="bar">Buy present for a loved one<i class="icon ion-chevron-right "></i></div></ion-item>
+					</ion-list>
+				</div>
+			<ion-scroll>
+			<img src="img/end.jpg" class="img-responsive img-rounded" alt="Responsive image">
+    	</ion-content>
+</ion-view>
